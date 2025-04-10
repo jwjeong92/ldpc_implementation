@@ -16,7 +16,7 @@ module control_encode(
 );
 
 parameter S_idle = 2'b00;
-parameter S_encode = 2'b01,
+parameter S_encode = 2'b01;
 parameter S_parity_out = 2'b10;
 
 reg [1:0] cstate, nstate;
